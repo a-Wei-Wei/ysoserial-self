@@ -17,6 +17,20 @@ mvn clean package -DskipTests
 ## Usage
 ```
 usage:  java -cp .\ysoserial-0.0.6-SNAPSHOT-all.jar ysoserial.LdapServerMain [host] [port] [cmd]
+
+maven dependencies:
+
+<dependency>
+    <groupId>ysoserial</groupId>
+    <artifactId>ysoserial</artifactId>
+    <version>0.0.6-SNAPSHOT</version>
+</dependency>
+
+<dependency>
+    <groupId>com.unboundid</groupId>
+    <artifactId>unboundid-ldapsdk</artifactId>
+    <version>4.0.9</version>
+</dependency>
 ```
 ## 例子
 ```
